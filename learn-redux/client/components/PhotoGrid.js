@@ -3,9 +3,9 @@ import React from 'react';
 const PhotoGrid = React.createClass({
   render() {
     return (
-        <div className='single-photo'>
-            I'm PHOTO_GRID!
-        </div>
+      <div className="photo-grid">
+      I'm the photo grid
+      </div>
     )
   }
 });

@@ -3,10 +3,10 @@ import React from 'react';
 const Single = React.createClass({
   render() {
     return (
-        <div className="photo-grid">
-            I'm SINGLE!
+      <div className="single-photo">
+      I'm the single
       </div>
-    );
+    )
   }
 });
 

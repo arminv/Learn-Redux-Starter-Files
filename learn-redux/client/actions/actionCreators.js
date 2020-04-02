@@ -1,27 +1,27 @@
-// Increment Likes:
+// increment
 export function increment(index) {
-    return {
-        type: 'INCREMENT_LIKES',
-        index
-    }
+  return {
+    type: 'INCREMENT_LIKES',
+    index
+  }
 }
 
-// Add Comment:
+// add comment
 export function addComment(postId, author, comment) {
-    return {
-        type: 'ADD_COMMENT',
-        postId,
-        author,
-        comment
-    }
+  return {
+    type: 'ADD_COMMENT',
+    postId,
+    author,
+    comment
+  }
 }
 
-// Remove Comment:
+// remove comment
+
 export function removeComment(postId, i) {
-    return {
-        type: 'REMOVE_COMMENT',
-        i,
-        postId
-    }
+  return {
+    type: 'REMOVE_COMMENT',
+    i,
+    postId
+  }
 }
-// Note: routing history will be handled by react - router for us(i.e.no need to implement manually)
